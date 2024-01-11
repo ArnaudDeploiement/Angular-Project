@@ -1,0 +1,77 @@
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background-color: #e91e63;
+    font-family: sans-serif;
+    color: #FFF;
+    gap:5vw;
+}
+
+.notice{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    background-color: #f2f2f2;
+    padding: 3vh;
+    border-radius: 5px;
+    gap:3vh;
+}
+
+.noticeTitle{
+    background-color: #FFF;
+    color: #0C131F;
+    padding: 1vh;
+    border-radius: 5px;
+    text-transform: uppercase;
+    box-shadow: 2px 2px 5px #c6c6c6;
+}
+.noticeItem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:1vh;
+}
+
+.noticeLevel{
+    background-color: #Feb900;
+    padding: 1vh;
+}
+
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap:2vh;
+}
+
+
+.title{
+    font-size: 5em;
+    text-transform: uppercase;
+    margin: 0;
+
+}
+
+.texte{
+    font-size: 2.5em;
+    margin: 0;   
+}
+
+.img{
+    width: 10vw;
+}
+
+.courseFeatures{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    padding: 2vh;
+}

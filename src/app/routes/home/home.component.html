@@ -1,0 +1,19 @@
+<app-menu/>
+<div class="hero">
+    <div class="tagline">
+        <h1 class="title">Apprenez le prompt engineering</h1>
+        <p class="texte">Découvrez la puissance de l'Intelligence Artificielle en maîtrisant le prompt engineering.<br>
+            Créez des automotisations, des applications ou des textes pour booster votre productivité.
+        </p>
+        <div class="button"> Commencez !</div>
+    </div>
+    <div class="illu"><img class="logo" alt="Intelligence Artificielle" src="./assets/ai_3.png"> </div>
+</div>
+<div class="features">
+    <h1 class="title2">Comprendre l'Intelligence Artificielle</h1>
+    <p class="texte2">Nos modules disponibles</p>
+    <div class="card">
+    <app-card *ngFor="let TabInfo of TabInfo" [TabInfo]="TabInfo"/>
+    </div>
+</div>
+<app-footer/>

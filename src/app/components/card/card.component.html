@@ -1,0 +1,8 @@
+<div class="card" id={{TabInfo.id}}>
+  <img alt="image-features" class="image" src={{TabInfo.image}}>
+  <div class="title">{{TabInfo.titre}}</div>
+  <div class="text">{{TabInfo.texte}}</div>
+  <a [routerLink]="['/details',TabInfo.id]">
+    <div class="button">En savoir plus</div>
+    </a>
+</div>

@@ -1,0 +1,46 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e91e63;
+    width: 15vw;
+    height: 30vh;
+    border-radius: 5px;
+    font-family: sans-serif;
+    gap:2vh;
+    padding: 3vh;
+    color: #FFF;
+    box-shadow: 5px 5px #000;
+}
+
+
+
+.image{
+    max-width: 12vh;
+}
+
+.title{
+    text-align: center;
+    font-weight: 800;
+    font-size: large;
+    text-transform: uppercase;
+}
+
+.text{
+    text-align: center;
+    font-size: large;
+}
+
+.button{
+    background-color: #FFF;
+    padding: 1vh;
+    border-radius: 5px;
+    color: #e91e63;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: #000;
+}

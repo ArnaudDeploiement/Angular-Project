@@ -1,0 +1,17 @@
+<app-menu/>
+<div class="hero">
+  <div class="info">
+  <h1 class="title"> {{TabInfo?.titre}}</h1>
+  <p class="texte">{{TabInfo?.texte}}</p>
+  <div class="notice">
+  <div class="noticeItem"*ngFor="let module of TabInfo?.course">
+    <span class="noticeTitle">{{module.titre}}</span>
+    <span class="noticeLevel">{{module.niveau}}</span></div>
+  </div>
+  </div>
+  <img class="img" alt="Module E-Learning" src={{TabInfo?.image}}>
+</div>
+<div class="courseFeatures" >
+<h1> Parcours {{TabInfo?.titre}}</h1>
+</div>
+<app-footer/>

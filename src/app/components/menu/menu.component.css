@@ -1,0 +1,66 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    background-color: #0C131F;
+    color: #FFF;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: smaller;
+    padding: 1vh;
+}
+
+.AllLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e91e63;
+    color: #FFF;
+    padding: 1vh;
+    margin-right: 2vw;
+    margin-left: 2vw;
+    font-weight: 700;
+    border-radius: 5px;
+    box-shadow: 2px 2px #FFF;
+
+}
+
+.LogoTitle{
+    margin: 0;
+    font-size: smaller;
+
+}
+
+.logoMenu{
+    width: 2vw;
+}
+
+.items{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap:1vh;
+}
+
+
+.item{
+    background-color: #FFf;
+    font-weight: 700;
+    padding: 1vh;
+    border-radius: 5px;
+    color: #0C131F;
+    cursor: pointer;
+}
+
+.item:hover{
+text-decoration: underline;
+text-decoration-thickness: 3px;
+}
+
+.button{
+    background-color: #e91e63;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}

@@ -18,7 +18,7 @@ export const routes: Routes = [
 {
     path:'details/:id',
     component:DetailsComponent,
-    title :'Details {{Data.titre}}'
+    title :'Module'
 
 }
 

@@ -15,21 +15,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #e91e63;
-    color: #FFF;
+    background-color: #87CEFA ;
+    color: #0C131F;
     padding: 1vh;
     margin-right: 2vw;
     margin-left: 2vw;
     font-weight: 700;
     border-radius: 5px;
     box-shadow: 2px 2px #FFF;
-
 }
 
 .LogoTitle{
     margin: 0;
     font-size: smaller;
-
 }
 
 .logoMenu{

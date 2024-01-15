@@ -3,15 +3,22 @@
   <div class="info">
   <h1 class="title"> {{TabInfo?.titre}}</h1>
   <p class="texte">{{TabInfo?.texte}}</p>
-  <div class="notice">
-  <div class="noticeItem"*ngFor="let module of TabInfo?.course">
-    <span class="noticeTitle">{{module.titre}}</span>
-    <span class="noticeLevel">{{module.niveau}}</span></div>
-  </div>
-  </div>
-  <img class="img" alt="Module E-Learning" src={{TabInfo?.image}}>
+  <p>Nos modules sont régulièrement mis à jour pour vous apporter le meilleur contenu pédagogique.</p>
+  <div class="button">Commencer</div>
 </div>
-<div class="courseFeatures" >
-<h1> Parcours {{TabInfo?.titre}}</h1>
+</div>
+<div class="courseFeatures">
+<h1> Contenu</h1>
+
+<div class="loop"*ngFor="let module of TabInfo?.course">
+<div class="card">
+<img class="imgCard" alt="image" src={{module.image}}>
+  <div class="titleCard">{{module.titre}}</div>
+  <div class="contentCard">{{module.contenu}}</div>
+  <div [ngClass]="{'classe-debutant': module.niveau === 'Débutant', 'classe-intermediaire': module.niveau === 'Intermédiaire', 'classe-experimente': module.niveau === 'Expérimenté'}">{{module.niveau}}</div>
+
+
+</div>
+</div>
 </div>
 <app-footer/>

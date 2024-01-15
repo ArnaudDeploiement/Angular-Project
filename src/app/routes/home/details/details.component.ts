@@ -1,4 +1,4 @@
-import { CommonModule } from '@angular/common';
+import { CommonModule, NgClass } from '@angular/common';
 import { Component, inject } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { TabInfoService } from '../../../services/tabinfo.service';
@@ -10,14 +10,14 @@ import { FooterComponent } from '../../../components/footer/footer.component';
 @Component({
   selector: 'app-details',
   standalone:true,
-  imports:[CommonModule,MenuComponent,FooterComponent],
+  imports:[CommonModule,MenuComponent,FooterComponent, NgClass],
   templateUrl: './details.component.html',
   styleUrls: ['./details.component.css']
 })
 export class DetailsComponent  {
 route : ActivatedRoute = inject(ActivatedRoute);
-TabInfoId = -1;
-TabInfoService = inject (TabInfoService);
+TabInfoId = 0;
+TabInfoService : TabInfoService = inject (TabInfoService);
 TabInfo : Information | undefined;
 
 

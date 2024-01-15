@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #e91e63;
+    background-color: #87CEFA;
     width: 15vw;
     height: 30vh;
     border-radius: 5px;
@@ -28,15 +28,19 @@
 }
 
 .text{
+    background-color: #f2f2f2;
+    color: #0C131F;
     text-align: center;
     font-size: large;
+    padding: 1vh;
+    border-radius: 5px;
 }
 
 .button{
     background-color: #FFF;
     padding: 1vh;
     border-radius: 5px;
-    color: #e91e63;
+    color: #87CEFA;
     font-weight: 600;
     cursor: pointer;
 }

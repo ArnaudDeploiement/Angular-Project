@@ -10,4 +10,5 @@ export interface Module{
     titre:string;
     niveau:string;
     contenu:string;
+    image:string;
 }

@@ -9,11 +9,13 @@ import { TabInfoService } from "../../services/tabinfo.service";
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [CardComponent, MenuComponent, CommonModule,FooterComponent],
+  imports: [CardComponent, MenuComponent, MenuComponent, CommonModule,FooterComponent],
   styleUrls:['./home.component.css'],
   templateUrl:'./home.component.html'
    
 })
+
+
 export class HomeComponent {
   TabInfo : Information[] = [];
   TabInfoService : TabInfoService = inject(TabInfoService)

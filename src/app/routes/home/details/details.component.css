@@ -3,10 +3,9 @@
     justify-content: center;
     align-items: center;
     height: 60vh;
-    background-color: #e91e63;
+    background-color: #87CEFA;
     font-family: sans-serif;
     color: #FFF;
-    gap:5vw;
 }
 
 .notice{
@@ -14,7 +13,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: start;
-    background-color: #f2f2f2;
+    background-color: #0c131f1e;
     padding: 3vh;
     border-radius: 5px;
     gap:3vh;
@@ -36,11 +35,34 @@
     gap:1vh;
 }
 
-.noticeLevel{
-    background-color: #Feb900;
+.button{
+    background-color: #0C131F;
     padding: 1vh;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-weight: 500;
+    cursor: pointer;
 }
 
+.classe-debutant{
+    background-color: #Feb900;
+    padding: 1vh;
+    font-size: x-small;
+}
+
+.classe-intermediaire{
+    background-color: #fe5d00;
+    padding: 1vh;
+    font-size: x-small;
+
+}
+
+.classe-experimente{
+    background-color: #fe1100;
+    padding: 1vh;
+    font-size: x-small;
+
+}
 
 .info{
     display: flex;
@@ -63,15 +85,44 @@
     margin: 0;   
 }
 
-.img{
-    width: 10vw;
-}
 
 .courseFeatures{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    padding: 5vh;
+    gap:2vw;
+}
+
+.card{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: sans-serif;
-    padding: 2vh;
+    gap:1vh;
+    margin: 2vh;
+    color: #FFF;
+    background-color: #0c131f2c;
+    padding: 1vh;
+    font-size: large;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px #c6c6c6d0;
+    height: 30vh;
+}
+
+.card:hover{
+    background-color: #87CEFA;
+    color: #FFF;
+
+}
+
+.titleCard{
+    text-transform: uppercase;
+}
+
+.imgCard{
+    width: 8vw;
+    border-radius: 5px;
 }

@@ -11,16 +11,16 @@ export class TabInfoService {
    TabInfo: Information[] = [
     {
         id: 1,
-        titre: "Le prompt",
+        titre: "Prompt Engineering",
         image: "./assets/ai.png",
         texte: "Comprendre le Prompt Engineering",
         course: [
-            { titre: "Module 1", niveau: "Débutant", contenu: "Contenu du module 1" },
-            { titre: "Module 2", niveau: "Débutant", contenu: "Contenu du module 2" },
-            { titre: "Module 3", niveau: "Intermédiaire", contenu: "Contenu du module 2" },
-            { titre: "Module 4", niveau: "intermédaire", contenu: "Contenu du module 2" },
-            { titre: "Module 5", niveau: "Expérimenté", contenu: "Contenu du module 2" },
-            { titre: "Module 6", niveau: "Expérimenté", contenu: "Contenu du module 2" },
+            { titre: "Module 1", niveau: "Débutant", contenu: "Contenu du module 1", image:"./assets/img_1.jpg" },
+            { titre: "Module 2", niveau: "Intermédiaire", contenu: "Contenu du module 2",image:"./assets/img_1.jpg" },
+            { titre: "Module 3", niveau: "Intermédiaire", contenu: "Contenu du module 2",image:"./assets/img_1.jpg" },
+            { titre: "Module 4", niveau: "Débutant", contenu: "Contenu du module 2",image:"./assets/img_1.jpg" },
+            { titre: "Module 5", niveau: "Expérimenté", contenu: "Contenu du module 2" ,image:"./assets/img_1.jpg"},
+            { titre: "Module 6", niveau: "Expérimenté", contenu: "Contenu du module 2" ,image:"./assets/img_1.jpg"},
         ]
     },
     {
@@ -29,8 +29,12 @@ export class TabInfoService {
         image: "./assets/ai_2.png",
         texte: "Comprendre les modèles de langages",
         course: [
-            { titre: "Module 1", niveau: "Débutant", contenu: "Contenu du module 1" },
-            { titre: "Module 2", niveau: "Intermédiaire", contenu: "Contenu du module 2" },
+            { titre: "Module 1", niveau: "Débutant", contenu: "Contenu du module 1" ,image:"./assets/img_1.jpg"},
+            { titre: "Module 2", niveau: "Intermédiaire", contenu: "Contenu du module 2",image:"./assets/img_1.jpg" },
+            { titre: "Module 3", niveau: "Débutant", contenu: "Contenu du module 1" ,image:"./assets/img_1.jpg"},
+            { titre: "Module 4", niveau: "Intermédiaire", contenu: "Contenu du module 2",image:"./assets/img_1.jpg" },
+            { titre: "Module 5", niveau: "Débutant", contenu: "Contenu du module 1" ,image:"./assets/img_1.jpg"},
+            { titre: "Module 6", niveau: "Intermédiaire", contenu: "Contenu du module 2",image:"./assets/img_1.jpg" },
         ]
     },
     {
@@ -39,8 +43,12 @@ export class TabInfoService {
         image: "./assets/ai_3.png",
         texte: "Comprendre les futurs usages de l'I.A",
         course: [
-            { titre: "Module 1", niveau: "Intermédiaire", contenu: "Contenu du module 1" },
-            { titre: "Module 2", niveau: "Intermédiaire", contenu: "Contenu du module 2" },
+            { titre: "Module 1", niveau: "Intermédiaire", contenu: "Contenu du module 1",image:"./assets/img_1.jpg" },
+            { titre: "Module 2", niveau: "Intermédiaire", contenu: "Contenu du module 2",image:"./assets/img_1.jpg" },
+            { titre: "Module 3", niveau: "Intermédiaire", contenu: "Contenu du module 1",image:"./assets/img_1.jpg" },
+            { titre: "Module 4", niveau: "Intermédiaire", contenu: "Contenu du module 2",image:"./assets/img_1.jpg" },
+            { titre: "Module 5", niveau: "Intermédiaire", contenu: "Contenu du module 1",image:"./assets/img_1.jpg" },
+            { titre: "Module 6", niveau: "Intermédiaire", contenu: "Contenu du module 2",image:"./assets/img_1.jpg" },
         ]
     },
     {
@@ -49,8 +57,12 @@ export class TabInfoService {
         image: "./assets/ai_4.png",
         texte: "Les transformations sectorielles liées à l'I.A",
         course: [
-            { titre: "Module 1", niveau: "Intermédiaire", contenu: "Contenu du module 1" },
-            { titre: "Module 2", niveau: "Intermédiaire", contenu: "Contenu du module 2" },
+            { titre: "Module 1", niveau: "Intermédiaire", contenu: "Contenu du module 1",image:"./assets/img_1.jpg" },
+            { titre: "Module 2", niveau: "Intermédiaire", contenu: "Contenu du module 2",image:"./assets/img_1.jpg" },
+            { titre: "Module 3", niveau: "Intermédiaire", contenu: "Contenu du module 1",image:"./assets/img_1.jpg" },
+            { titre: "Module 4", niveau: "Intermédiaire", contenu: "Contenu du module 2",image:"./assets/img_1.jpg" },
+            { titre: "Module 5", niveau: "Intermédiaire", contenu: "Contenu du module 1",image:"./assets/img_1.jpg" },
+            { titre: "Module 6", niveau: "Intermédiaire", contenu: "Contenu du module 2",image:"./assets/img_1.jpg" },
         ]
     },
     {
@@ -59,8 +71,12 @@ export class TabInfoService {
         image: "./assets/ai.png",
         texte: "Comprendre le Prompt Engineering",
         course: [
-            { titre: "Module 1", niveau: "Intermédiaire", contenu: "Contenu du module 1" },
-            { titre: "Module 2", niveau: "Intermédiaire", contenu: "Contenu du module 2" },
+            { titre: "Module 1", niveau: "Intermédiaire", contenu: "Contenu du module 1",image:"./assets/img_1.jpg" },
+            { titre: "Module 2", niveau: "Intermédiaire", contenu: "Contenu du module 2",image:"./assets/img_1.jpg" },
+            { titre: "Module 3", niveau: "Intermédiaire", contenu: "Contenu du module 1",image:"./assets/img_1.jpg" },
+            { titre: "Module 4", niveau: "Intermédiaire", contenu: "Contenu du module 2",image:"./assets/img_1.jpg" },
+            { titre: "Module 5", niveau: "Intermédiaire", contenu: "Contenu du module 1",image:"./assets/img_1.jpg" },
+            { titre: "Module 6", niveau: "Intermédiaire", contenu: "Contenu du module 2",image:"./assets/img_1.jpg" },
         ]
     },
     {
@@ -69,8 +85,8 @@ export class TabInfoService {
         image: "./assets/ai_2.png",
         texte: "Comprendre les modèles de langages",
         course: [
-            { titre: "Module 1", niveau: "Intermédiaire", contenu: "Contenu du module 1" },
-            { titre: "Module 2", niveau: "Intermédiaire", contenu: "Contenu du module 2" },
+            { titre: "Module 1", niveau: "Intermédiaire", contenu: "Contenu du module 1",image:"./assets/img_1.jpg" },
+            { titre: "Module 2", niveau: "Intermédiaire", contenu: "Contenu du module 2",image:"./assets/img_1.jpg" },
         ]
     },
     {
@@ -79,8 +95,8 @@ export class TabInfoService {
         image: "./assets/ai_3.png",
         texte: "Comprendre les futurs usages de l'I.A",
         course: [
-            { titre: "Module 1", niveau: "Facile", contenu: "Contenu du module 1" },
-            { titre: "Module 2", niveau: "Moyen", contenu: "Contenu du module 2" },
+            { titre: "Module 1", niveau: "Débutant", contenu: "Contenu du module 1",image:"./assets/img_1.jpg" },
+            { titre: "Module 2", niveau: "Débutant", contenu: "Contenu du module 2" ,image:"./assets/img_1.jpg"},
         ]
     },
     {
@@ -89,8 +105,8 @@ export class TabInfoService {
         image: "./assets/ai_4.png",
         texte: "Les transformations sectorielles liées à l'I.A",
         course: [
-            { titre: "Module 1", niveau: "Facile", contenu: "Contenu du module 1" },
-            { titre: "Module 2", niveau: "Moyen", contenu: "Contenu du module 2" },
+            { titre: "Module 1", niveau: "Débutant", contenu: "Contenu du module 1",image:"./assets/img_1.jpg" },
+            { titre: "Module 2", niveau: "Débutant", contenu: "Contenu du module 2",image:"./assets/img_1.jpg" },
         ]
     },
     {
@@ -99,8 +115,8 @@ export class TabInfoService {
         image: "./assets/ai.png",
         texte: "Comprendre le Prompt Engineering",
         course: [
-            { titre: "Module 1", niveau: "Facile", contenu: "Contenu du module 1" },
-            { titre: "Module 2", niveau: "Moyen", contenu: "Contenu du module 2" },
+            { titre: "Module 1", niveau: "Débutant", contenu: "Contenu du module 1",image:"./assets/img_1.jpg" },
+            { titre: "Module 2", niveau: "Intermédiaire", contenu: "Contenu du module 2",image:"./assets/img_1.jpg" },
         ]
     },
     {
@@ -109,8 +125,8 @@ export class TabInfoService {
         image: "./assets/ai_2.png",
         texte: "Comprendre les modèles de langages",
         course: [
-            { titre: "Module 1", niveau: "Facile", contenu: "Contenu du module 1" },
-            { titre: "Module 2", niveau: "Moyen", contenu: "Contenu du module 2" },
+            { titre: "Module 1", niveau: "Facile", contenu: "Contenu du module 1",image:"./assets/img_1.jpg" },
+            { titre: "Module 2", niveau: "Intermédiaire", contenu: "Contenu du module 2",image:"./assets/img_1.jpg" },
         ]
     },
 ];

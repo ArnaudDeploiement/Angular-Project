@@ -8,7 +8,7 @@ import { CardComponent } from "../../components/card/card.component";
 @Component({
     selector: 'app-contact',
     standalone: true,
-    imports: [MenuComponent,FooterComponent,FormsComponent, CardComponent],
+    imports: [MenuComponent,FooterComponent,FormsComponent, MenuComponent, CardComponent],
     styleUrls:['./contact.component.css'],
     templateUrl:'./contact.component.html',
   })
